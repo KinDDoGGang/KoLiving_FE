@@ -1,0 +1,39 @@
+.button {
+  @apply h-[54px] rounded-[2px] font-pretendard text-[18px] font-bold;
+
+  &.lg {
+    @apply w-default px-[13px];
+  }
+  &.md {
+    @apply w-medium px-[12px];
+  }
+  &.sm {
+    @apply w-small px-[11px];
+  }
+
+  &.r1 {
+    @apply bg-r1 text-g0;
+  }
+
+  &.r4 {
+    @apply bg-r4 text-g0;
+  }
+
+  &.g2 {
+    @apply bg-g2 text-g4;
+  }
+
+  &.disabled {
+    @apply bg-g2 text-g3;
+  }
+
+  &.noBg {
+    @apply bg-transparent border border-solid border-r1 rounded-[2px] text-r1 font-bold;
+  }
+
+  &.none {
+    @apply bg-transparent font-black border-none text-black;
+  }
+  
+}
+
